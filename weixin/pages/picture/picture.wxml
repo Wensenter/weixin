@@ -1,0 +1,10 @@
+<!--pages/picture/picture.wxml-->
+<view wx:for="{{arr}}" class="outer">
+    <view class="title">
+     {{item.title}}
+    </view>
+   <image src="{{item.img}}" class="img"></image>
+
+
+<button bindtap="content" hover-class="none" data-id="{{item.id}}"></button>
+</view>

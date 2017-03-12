@@ -1,0 +1,9 @@
+<!--pages/song/song.wxml-->
+<view wx:for="{{arr}}">
+
+<audio src="{{item.url}}" controls="ture" poster="{{item.albumpic_small}}" author="{{item.singername}}" name="{{item.songname}}" loop="ture">
+
+
+</audio>
+
+</view>

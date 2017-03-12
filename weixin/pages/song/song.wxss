@@ -1,0 +1,19 @@
+/* pages/song/song.wxss */
+audio{
+    width: 95%;
+    height: 15%;
+    position: relative;
+}
+button.play{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 0;
+
+}
+button::after{
+    border:0;
+}

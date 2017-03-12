@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/picture/picture",
+    "pages/song/song",
+    "pages/logs/logs"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#31C27C",
+    "navigationBarTitleText": "QQ音乐",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    
+    "list": [{
+      "iconPath": "../../img/首页-首页.png",
+      "selectedIconPath": "../../img/首页-首页 (1).png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "iconPath": "../../img/动漫.png",
+      "selectedIconPath": "../../img/动漫 (1).png",
+      "pagePath": "pages/logs/logs",
+      "text": "动漫热歌"
+    },
+    {
+      "iconPath": "../../img/丽人.png",
+      "selectedIconPath": "../../img/丽人 (1).png",
+      "pagePath": "pages/picture/picture",
+      "text": "清纯唯美"
+    },
+     {
+      "iconPath": "../../img/木歌曲.png",
+      "selectedIconPath": "../../img/木歌曲 (1).png",
+      "pagePath": "pages/song/song",
+      "text": "一听歌曲"
+    }]
+  }
+}

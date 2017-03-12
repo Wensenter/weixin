@@ -1,0 +1,221 @@
+/**index.wxss**/
+page{
+background: #F4F4F4;
+}
+.tag{
+  display: flex;
+}
+.tag button{
+  height: 45px;
+  line-height: 45px;
+  font-size:16px;
+  padding-left: 0;
+  padding-right: 0;
+  flex: 1;
+  border-radius:0; 
+  background: #fff;
+}
+button::after{
+  border:0; 
+}
+button.active{
+  color: green;
+  border-bottom:2px solid #31C27C; 
+}
+image{
+  width: 100%;
+  height: 150px;
+}
+.title{
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #555;
+}
+.content{
+   padding-left: 10px;
+  display: block;
+  font-size: 12px;
+  color: #555;
+
+}
+.decirtion{
+  display: inline-block;
+  width: 148px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.diantai{
+  width: 100%;
+  display: flex;
+  }
+.diantai view{
+  background: #fff;
+  flex: 1;
+  padding-left: 4px;
+   padding-right: 10px;
+  margin-bottom: 10px;
+   width:50%;
+}
+.diantai view:nth-child(2n){
+  padding-left: 0;
+}
+.diantai wx-view {
+  width: 100%;
+}
+.diantai view image{
+  /*height: 174px;*/
+  width: 100%;
+}
+.hot{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hot view{
+  width: 148px;
+  flex: 1;
+ 
+}
+.line1,.line2,.line3,.line4{
+  display: block;
+  text-align: center;
+}
+.line1{
+  font-size: 14px;
+  color: rgba(0, 0, 0, .6);
+  height: 40px;
+  line-height: 40px;
+}
+.line2{
+  font-size: 14px;
+  height: 14px;
+  line-height: 14px;
+  color: #000;
+  margin-bottom: 10px;
+}
+.line3{
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-size: contain;
+  display: block;
+  width: 82px;
+  height: 24px;
+}
+.line4{
+  font-size: 10px;
+  color: rgba(0,0,0,.5)
+}
+.mainlist{
+  margin:10px 10px 10px 10px; 
+}
+.ph{
+  background: #fff;
+  margin-bottom: 10px;
+  display: flex;
+}
+.listtitle{
+  font-size:16px;
+   margin-bottom: 15px;
+  
+}
+.main{
+  padding-top: 5px;
+  padding-left: 7px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.main view{
+  font-size: 16px;
+}
+.songlist{
+  width: 232px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.listimg{
+  flex: 1;
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+.num{
+  padding-right: 4px;
+  color: rgba(0,0,0,.5);
+  display: inline-block;
+  flex: 1;
+}
+.songname{
+  min-width: 32px;
+  max-width: 225px;
+  display: inline-block;
+  flex: 1;
+  white-space: nowrap;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.singername{
+  min-width: 32px;
+  max-width: 150px;
+  color: rgba(0,0,0,.5);
+  display: inline-block;
+  flex: 1;
+   white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.search{
+  display: flex;
+  margin: 10px;
+  background:  url(../../img/搜索.png) no-repeat #fff;
+  background-position: 10px center;
+  background-size: 18px 18px;
+}
+input.search-box{
+  margin-top:3px; 
+  flex: 1.8;
+  font-size: 14px;
+  height:36px;
+  background: #fff;
+  margin-left: 35px;
+  
+}
+
+.cancel{
+  color: rgba(0,0,0,.5);
+  font-size: 14px;
+  flex: 0.2;
+}
+.cancel::after{
+  border: 0;
+}
+.hotsearch{
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  color: rgba(0, 0, 0, .6);
+  margin-bottom: 8px;
+}
+.searchlist{
+  margin: 15px;
+}
+.searchlist button{
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  color: #000;
+  border: 1px solid rgba(0,0,0,.6);
+  border-radius: 99px;
+  word-break: keep-all;
+  margin-bottom: 10px;
+  margin-right: 14px;
+}
+
